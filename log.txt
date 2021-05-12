@@ -1,0 +1,47 @@
+2021-05-11 09:35:48.391 -06:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.202\
+2021-05-11 09:35:48.432 -06:00 [INF] Registered 1 extensions:
+	Default extension
+2021-05-11 09:35:49.820 -06:00 [INF] Initializing upgrade step Select an entrypoint
+2021-05-11 09:35:49.827 -06:00 [INF] Setting entrypoint to only project in solution: C:\Users\mfigueroa\Documents\MarkupConverter\MarkupConverter\MarkupConverter\MarkupConverter.csproj
+2021-05-11 09:35:49.839 -06:00 [INF] Initializing upgrade step Select project to upgrade
+2021-05-11 09:35:49.911 -06:00 [INF] Initializing upgrade step Back up project
+2021-05-11 09:36:07.760 -06:00 [INF] Applying upgrade step Back up project
+2021-05-11 09:36:15.601 -06:00 [INF] Backing up C:\Users\mfigueroa\Documents\MarkupConverter\MarkupConverter\MarkupConverter to C:\Users\mfigueroa\Documents\MarkupConverter\MarkupConverter.backup\MarkupConverter
+2021-05-11 09:36:15.638 -06:00 [INF] Project backed up to C:\Users\mfigueroa\Documents\MarkupConverter\MarkupConverter.backup\MarkupConverter
+2021-05-11 09:36:15.641 -06:00 [INF] Upgrade step Back up project applied successfully
+2021-05-11 09:36:17.948 -06:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-05-11 09:36:22.287 -06:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-05-11 09:36:22.291 -06:00 [INF] Converting project file format with try-convert, version 0.7.217901
+2021-05-11 09:36:23.873 -06:00 [INF] [try-convert] Conversion complete!
+2021-05-11 09:36:24.176 -06:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-05-11 09:36:25.344 -06:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-05-11 09:36:30.092 -06:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-05-11 09:36:31.876 -06:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.222702) needs added
+2021-05-11 09:36:31.884 -06:00 [INF] Packages to be added:
+Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.222702
+2021-05-11 09:36:35.071 -06:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-05-11 09:36:35.080 -06:00 [INF] Adding package reference: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.222702
+2021-05-11 09:36:37.441 -06:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-05-11 09:36:40.117 -06:00 [INF] Initializing upgrade step Update TFM
+2021-05-11 09:36:40.128 -06:00 [INF] TFM needs updated to net5.0-windows
+2021-05-11 09:36:42.047 -06:00 [INF] Applying upgrade step Update TFM
+2021-05-11 09:36:43.912 -06:00 [INF] Updated TFM to net5.0-windows
+2021-05-11 09:36:43.914 -06:00 [INF] Upgrade step Update TFM applied successfully
+2021-05-11 09:36:47.420 -06:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-05-11 09:36:49.067 -06:00 [INF] Adding Microsoft.Windows.Compatibility 5.0.2
+2021-05-11 09:36:49.070 -06:00 [INF] Packages to be added:
+Microsoft.Windows.Compatibility, Version=5.0.2
+2021-05-11 09:36:51.304 -06:00 [INF] Applying upgrade step Update NuGet Packages
+2021-05-11 09:36:51.306 -06:00 [INF] Adding package reference: Microsoft.Windows.Compatibility, Version=5.0.2
+2021-05-11 09:37:00.797 -06:00 [INF] Upgrade step Update NuGet Packages applied successfully
+2021-05-11 09:37:02.269 -06:00 [INF] Initializing upgrade step Add template files
+2021-05-11 09:37:02.308 -06:00 [INF] 0 expected template items needed
+2021-05-11 09:37:02.332 -06:00 [INF] Initializing upgrade step Update source code
+2021-05-11 09:37:03.875 -06:00 [INF] Initializing upgrade step Move to next project
+2021-05-11 09:37:06.481 -06:00 [INF] Applying upgrade step Move to next project
+2021-05-11 09:37:06.482 -06:00 [INF] Upgrade step Move to next project applied successfully
+2021-05-11 09:37:08.646 -06:00 [INF] Initializing upgrade step Finalize upgrade
+2021-05-11 09:37:10.785 -06:00 [INF] Applying upgrade step Finalize upgrade
+2021-05-11 09:37:10.787 -06:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-05-11 09:37:13.412 -06:00 [INF] Upgrade has completed. Please review any changes.
+2021-05-11 09:37:13.415 -06:00 [INF] Saving upgrade progress file at C:\Users\mfigueroa\Documents\MarkupConverter\MarkupConverter\.upgrade-assistant
