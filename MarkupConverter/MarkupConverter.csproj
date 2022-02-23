@@ -44,11 +44,11 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers">
-	  <Version>0.3.246501</Version>
+	  <Version>0.3.310801</Version>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
 	<PackageReference Include="Microsoft.Windows.Compatibility">
-		<Version>5.0.2</Version>
+		<Version>6.0.0</Version>
     </PackageReference>
   </ItemGroup>
 </Project>
