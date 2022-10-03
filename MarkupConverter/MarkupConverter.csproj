@@ -44,7 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers">
-	  <Version>0.3.310801</Version>
+	  <Version>0.4.346202</Version>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
 	<PackageReference Include="Microsoft.Windows.Compatibility">
