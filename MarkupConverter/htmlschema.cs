@@ -18,7 +18,7 @@ namespace MarkupConverter
     /// maintains static information about HTML structure
     /// can be used by HtmlParser to check conditions under which an element starts or ends, etc.
     /// </summary>
-    internal class HtmlSchema
+    public class HtmlSchema
     {
         // ---------------------------------------------------------------------
         //
@@ -85,7 +85,7 @@ namespace MarkupConverter
         /// </summary>
         /// <param name="xmlElementName"></param>
         /// <returns></returns>
-        internal static bool IsBlockElement(string xmlElementName)
+        public static bool IsBlockElement(string xmlElementName)
         {
             return _htmlBlockElements.Contains(xmlElementName);
         }
@@ -95,7 +95,7 @@ namespace MarkupConverter
         /// </summary>
         /// <param name="xmlElementName"></param>
         /// <returns></returns>
-        internal static bool IsInlineElement(string xmlElementName)
+        public static bool IsInlineElement(string xmlElementName)
         {
             return _htmlInlineElements.Contains(xmlElementName);
         }

@@ -74,8 +74,7 @@ namespace MarkupConverter
     /// HtmlParser class accepts a string of possibly badly formed Html, parses it and returns a string
     /// of well-formed Html that is as close to the original string in content as possible
     /// </summary>
-
-    internal class HtmlParser
+    public class HtmlParser
     {
         // ---------------------------------------------------------------------
         //
@@ -127,7 +126,7 @@ namespace MarkupConverter
         /// <returns>
         /// XmlElement rep
         /// </returns>
-        internal static XmlElement ParseHtml(string htmlString)
+        public static XmlElement ParseHtml(string htmlString)
         {
             HtmlParser htmlParser = new HtmlParser(htmlString);
 
@@ -549,7 +548,7 @@ namespace MarkupConverter
 
         #region Private Fields
 
-        internal const string XhtmlNamespace = "http://www.w3.org/1999/xhtml";
+        public const string XhtmlNamespace = "http://www.w3.org/1999/xhtml";
 
         private HtmlLexicalAnalyzer _htmlLexicalAnalyzer;
 

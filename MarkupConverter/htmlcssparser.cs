@@ -16,12 +16,11 @@ namespace MarkupConverter
     using System.Collections;
     using System.Collections.Generic;
     using System.Text;
-    using System.IO;
+    // DependencyProperty
 
-    using System.Windows; // DependencyProperty
-    using System.Windows.Documents; // TextElement
+    // TextElement
   
-    internal static class HtmlCssParser
+    public static class HtmlCssParser
     {
         // .................................................................
         //
@@ -29,7 +28,7 @@ namespace MarkupConverter
         //
         // .................................................................
 
-        internal static void GetElementPropertiesFromCssAttributes(XmlElement htmlElement, string elementName, CssStylesheet stylesheet, Hashtable localProperties, List<XmlElement> sourceContext)
+        public static void GetElementPropertiesFromCssAttributes(XmlElement htmlElement, string elementName, CssStylesheet stylesheet, Hashtable localProperties, List<XmlElement> sourceContext)
         {
             string styleFromStylesheet = stylesheet.GetStyle(elementName, sourceContext);
 
@@ -830,7 +829,7 @@ namespace MarkupConverter
     }
 
 
-    internal class CssStylesheet
+    public class CssStylesheet
     {
         // Constructor
         public CssStylesheet(XmlElement htmlElement)

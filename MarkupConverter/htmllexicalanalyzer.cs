@@ -133,6 +133,11 @@ namespace MarkupConverter
                     }
                     else
                     {
+                        if (this._previousCharacter =='>')
+                        {
+                            _ignoreNextWhitespace = false;
+                        }
+
                         if (this.NextCharacter <= ' ')
                         {
                             //  Respect xml:preserve or its equivalents for whitespace processing
